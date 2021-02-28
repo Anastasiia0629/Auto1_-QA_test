@@ -11,7 +11,7 @@ public class TestSearch extends BasePage {
 
     @BeforeClass
     public void openSearchPage() {
-        open(Links.Auto1.getMainPage());
+        open(Links.Auto1.getSearchPage());
     }
 
 

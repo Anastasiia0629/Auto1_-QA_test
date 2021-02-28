@@ -28,12 +28,12 @@ public class SearchPage {
 
     @Step
     public void verifyAppliedFilterFrom2015(String expectedName) {
-        assertEqualsWithWait(searchPageLocators.from2015AppliedFilter, expectedName, 10);
+        assertEqualsWithWait(searchPageLocators.from2015AppliedFilter, expectedName, 15);
     }
 
     @Step
     public void verifyAppliedFilterFrom2015Fixed(String expectedName) {
-        assertEqualsWithWait(searchPageLocators.from2015FixedFilter, expectedName, 10);
+        assertEqualsWithWait(searchPageLocators.from2015FixedFilter, expectedName, 15);
     }
 
     @Step
@@ -48,7 +48,7 @@ public class SearchPage {
 
     @Step
     public void verifyAppliedSortingByPriceDesc(String expectedName) {
-        assertEqualsWithWait(searchPageLocators.sortByField, expectedName, 10);
+        assertEqualsWithWait(searchPageLocators.sortByField, expectedName, 15);
     }
 
 

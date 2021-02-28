@@ -3,14 +3,14 @@ package common.test_data;
 public enum Links {
         Auto1 ("https://www.autohero.com/de/search/");
 
-        private final String mainPage;
+        private final String searchPage;
 
-        Links (String mainPage) {
-            this.mainPage = mainPage;
+        Links (String searchPage) {
+            this.searchPage = searchPage;
         }
 
-        public String getMainPage() {
-            return mainPage;
+        public String getSearchPage() {
+            return searchPage;
         }
     }
 
